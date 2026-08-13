@@ -5,7 +5,7 @@
 ・※getTimeは戻り値ではない。
 ・普通に圧縮すると空白削られて%DAYMSECの%DがUnicode判定されるので手間だけどfloor使ってる
 */
-const debug=true;
+let debug=true;
 
 //初期化、祝日休日リスト作成
 /*
